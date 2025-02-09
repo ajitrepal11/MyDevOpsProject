@@ -22,7 +22,7 @@ agent any
    stage('Interactive Output') {
     steps {
     // Archive the build output artifacts.
-      input message: 'This is interactive input which will decide to go ahead with or stop', parameters: [booleanParam(defaultValue: true, desc      ription: 'click yes to proceed', name: 'Yes'), booleanParam(description: 'click no to stop', name: 'No')]
+      input message: 'This is interactive input which will decide to go ahead with or stop', parameters: [booleanParam(defaultValue: true, description: 'click yes to proceed', name: 'Yes'), booleanParam(description: 'click no to stop', name: 'No')]
      }
    }
   }
