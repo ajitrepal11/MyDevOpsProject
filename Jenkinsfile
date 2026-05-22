@@ -16,6 +16,7 @@ stage('Build') {
 stage('Deploy') {
   steps {
   // Deploy the application (replace with your deployment commands)
+  //1st change made from VScode
    sh 'echo "Deploying the application"'
    }
   }
